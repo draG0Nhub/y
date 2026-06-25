@@ -185,7 +185,6 @@ function loadMainScript()
     -- ==========================================
     local Tab1 = _call9:MakeTab({"معلومات المطور", Icon = "rbxassetid://10723415903" })
     Tab1:AddSection("تمت برمجة السكربت بواسطة draGon")
-    Tab1:AddSeciton("شكر وتقدير الى المطور Aizen") 
     -- تم حذف سطر "شكر خاص وتقدير الى المطور Trunks"
     Tab1:AddSection("أهلاً بك  : " .. player.Name)
 
