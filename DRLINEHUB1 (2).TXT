@@ -475,7 +475,7 @@ function loadMainScript()
     -- ==========================================
     -- 4. تبويب التحكم باللاعب
     -- ==========================================
-    local LocalPlayerTab = Window:MakeTab({"اللاعب", "user"})
+    local LocalPlayerTab = _call9:MakeTab ({"اللاعب", "user"})
 -- Seção para Scripts Universais
 Section = LocalPlayerTab:AddSection({
     Name = "مضادات للحماية"
@@ -1271,7 +1271,7 @@ LocalPlayerTab:AddToggle({
     -- ==========================================
     -- 7. تبويب التخريب
     -- ==========================================
-    local TrollTab = Window:MakeTab({ Title = "تخريب", Icon = "rbxassetid://13364900349" })
+    local TrollTab = _call9:MakeTab({ Title = "تخريب", Icon = "rbxassetid://13364900349" })
 TrollTab:AddParagraph({ "لا تنسى تروح لبيت 6" })
 TrollTab:AddButton({
     Name = "بناء مختبر الحدث فسبون",
